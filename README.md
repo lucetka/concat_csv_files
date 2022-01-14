@@ -1,7 +1,7 @@
 # concat_csv_files
 My first ever Python program
 
-This is a simple GUI program which allows the user to select multiple csv files (they must have the same header, ie identical columns) and concatenate them - ie the resulting file can be manually created by opening one csv file and copying and pasting the content of another file without the header to the first empty row after the contents of the first csv file and doing this for all selected csv files. 
+This is a simple GUI program which allows the user to select multiple csv files and concatenate them - ie for files with identical headers the resulting file can be manually created by opening one csv file and copying and pasting the content of another file without the header to the first empty row after the contents of the first csv file and doing this for all selected csv files. The program is based on the pandas.concat function and thus it also works for files with non-identical headers but this is not the primary purpose of this program. The point is to merge csv files presenting "batches" of the same results, specifically I wrote it to merge result files downloaded from Web of Science.
 
 concat_csv4: The resulting file will be saved under the name myMergedFiles.csv
 
